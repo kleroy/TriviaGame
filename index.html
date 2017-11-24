@@ -2,15 +2,46 @@
 
     <html lang="en-us">
     <head>
-
-        <title>Dev Trivia Game</title>
-
-
+        <meta charset="UTF-8">
+        <title>BootCamp Trivia</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link href="https://fonts.googleapis.com/css?family=Macondo+Swash+Caps" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        
     </head>
 
-    <body>
+    <body id="focus">
+        <div id="title">
+            <h1 id="name">BootCamp Study Trivia</h1>
+        </div>
+
+        <div id="begin">
+            <button class="rulesBtn">Game Rules</button>
+            <button class="startBtn">Let's Begin</button>
+        </div>
+            <div id="musicPlayer">
+                <header>Background Music</header>
+                <form>
+                    <lable class="radio-inline">
+                        <input type="radio" name="musicOn">On
+                    </lable>
+                    <lable class="radio-inline">
+                        <input type="radio" name="musicOff">Off
+                    </lable>
+                </form>
+            
+
+            </div>
 
 
+
+
+         <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+            <!-- Main Game Logic  -->
+    <script src="assets/javascript/app.js"></script>
     </body>
 
 
