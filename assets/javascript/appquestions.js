@@ -15,17 +15,17 @@ var quest =[
 ]
 
 var ans =[
-    ["", "", "", ""]
+    ["function = myFunction()", "function myFunction()", "myFunction()", "function : myFunction()"]
     ["run myFirst", "myFirst()", "call.myFirst"],
-    ["", "", "",],
-    ["", "", "", ""],
-    ["", "", ""],
+    ["if i == 5", "if (i) == 5", "if (i == 5)"],
+    ["if (i =! 5)", "if (i != 5)", "if (5 = false)", "if (no(5))"],
+    ["while (i <= 10)", "while()", "while (i <= 10; i++)"],
     ["&", "%", "$", "*"],
     ["True", "False",],
-    
-    
-
-
-
-
+    ["$set.background(p)= red", "background(p) = 'red'", "$('p').css('background-color','red');"],
+    ["All div elements with class='intro'", "The first div element with id='intro'", "First div element you create"],
+    ["altClass()", "append()", "toggleClass()"],
+    ["conflict()", "noConflict()", "nameConflict()"],
+    ["remove()", "detach()", "both"],
+    ["jQuery.ajax()", "jQuery.ajaxSetup()", "jQuery.ajaxAsync()"],
 ]
